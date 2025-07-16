@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Marketplace Ropa</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #fff; }
+
+    header {
+      background: #000;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    aside {
+      width: 20%;
+      background: #f0f0f0;
+      padding: 1rem;
+      border-right: 1px solid #ccc;
+    }
+
+    aside h3 {
+      margin-bottom: 1rem;
+    }
+
+    main {
+      flex-grow: 1;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .item {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Marketplace Ropa</h1>
+  </header>
+
+  <div class="container">
+    <aside>
+      <h3>Filtros</h3>
+      <p><input type="checkbox"> Hombre</p>
+      <p><input type="checkbox"> Mujer</p>
+      <p><input type="checkbox"> Accesorios</p>
+    </aside>
+
+    <main>
+      <div class="item">
+        <img src="imagenes1/camisablanca.jpg" alt="Camisa Blanca">
+        <h3>Camisa Blanca</h3>
+        <p>$350</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/estampado2.jpeg" alt="Camisa estampado">
+        <h3>Camisa estampado líneas azules</h3>
+        <p>$500</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/estampado3.jpeg" alt="Camisa pañoleta">
+        <h3>Camisa estampado de pañoleta</h3>
+        <p>$350</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/estampado4.webp" alt="Camisa playera">
+        <h3>Camisa estampado playero</h3>
+        <p>$500</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/estanpado1.avif" alt="Camisa marítima">
+        <h3>Camisa marítima</h3>
+        <p>$350</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/camisas.webp" alt="Camisa verde">
+        <h3>Camisa verde formal</h3>
+        <p>$500</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/pantalon1.jpg" alt="Pantalón 1">
+        <h3>Pantalón corte recto</h3>
+        <p>$350</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/pantalon2.avif" alt="Pantalón 2">
+        <h3>Pantalón corte A</h3>
+        <p>$500</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/pantalon3.webp" alt="Pantalón 3">
+        <h3>Pantalón corte recto deslavado</h3>
+        <p>$350</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/pantalon4.webp" alt="Pantalón 4">
+        <h3>Pantalón Baggy</h3>
+        <p>$500</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/pantalon5.png" alt="Short azul">
+        <h3>Short azul</h3>
+        <p>$350</p>
+      </div>
+
+      <div class="item">
+        <img src="imagenes1/pantalo6.jpg" alt="Short baggy">
+        <h3>Short baggy</h3>
+        <p>$500</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
+
